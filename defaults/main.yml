@@ -28,3 +28,4 @@ zookeeper_id: "
     	{%- endfor -%}
     {%- endif -%}
 "
+service_discovery: "consul"
