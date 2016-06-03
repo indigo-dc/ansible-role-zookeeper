@@ -17,5 +17,5 @@
     service_name: zookeeper
     service_port: "{{ zookeeper_client_port }}"
     tags: zookeeper
-  when: consul_installed == "yes"
+  when: service_discovery == "consul"
 
