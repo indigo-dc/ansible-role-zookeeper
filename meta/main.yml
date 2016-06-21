@@ -16,5 +16,5 @@ galaxy_info:
    - zookeeper
 
 dependencies: 
-   #- { role: indigo-dc.docker }
-   - { role: ansible-role-docker }
+   - { role: indigo-dc.docker }
+   #- { role: ansible-role-docker }

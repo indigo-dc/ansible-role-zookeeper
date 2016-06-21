@@ -1,5 +1,0 @@
----
-# defaults file for zookeeper
-zookeeper_version: 'latest'
-zookeeper_image: "indigodatacloud/zookeeper:{{zookeeper_version}}"
-service_discovery: "consul"

@@ -1,4 +1,0 @@
----
-# defaults file for zookeeper
-zookeeper_version: 'centos7_3.4.8'
-zookeeper_image: "indigodatacloud/zookeeper:{{zookeeper_version}}"

@@ -3,12 +3,6 @@
     msg="This role is not supported on {{ansible_distribution}}"
   when: "ansible_distribution != 'Ubuntu' and ansible_os_family != 'RedHat'"
 
-- name: Include distribution-specific variables
-  include_vars: "{{ item }}"
-  with_first_found:
-    - "vars/{{ ansible_distribution|lower }}.yml"
-    - "vars/{{ ansible_os_family|lower }}.yml"
-
 - name: run zookeeper container
   docker:
     name: zookeeper
